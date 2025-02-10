@@ -50,68 +50,68 @@ public class BarkingModels implements ModelEntrypoint {
 		ModelHelper.setBlockModel(woodEucalyptus, () -> new BlockModelCustomRotatable<>(woodEucalyptus, woodEucalyptus.namespaceId().toString())
 		);
 
-		ModelHelper.setBlockModel(woodStripedOak, () -> new BlockModelCustomRotatable<>(woodStripedOak, MOD_ID + ":block/striped_oak_side")
+		ModelHelper.setBlockModel(woodStrippedOak, () -> new BlockModelCustomRotatable<>(woodStrippedOak, MOD_ID + ":block/stripped_oak_side")
 		);
 
-		ModelHelper.setBlockModel(woodStripedPalm, () -> new BlockModelCustomRotatable<>(woodStripedPalm, MOD_ID + ":block/striped_palm_side")
+		ModelHelper.setBlockModel(woodStrippedPalm, () -> new BlockModelCustomRotatable<>(woodStrippedPalm, MOD_ID + ":block/stripped_palm_side")
 		);
 
-		ModelHelper.setBlockModel(woodStripedBirch, () -> new BlockModelCustomRotatable<>(woodStripedBirch, MOD_ID + ":block/striped_birch_side")
+		ModelHelper.setBlockModel(woodStrippedBirch, () -> new BlockModelCustomRotatable<>(woodStrippedBirch, MOD_ID + ":block/stripped_birch_side")
 		);
 
-		ModelHelper.setBlockModel(woodStripedThorn, () -> new BlockModelCustomRotatable<>(woodStripedThorn, MOD_ID + ":block/striped_thorn_side")
+		ModelHelper.setBlockModel(woodStrippedThorn, () -> new BlockModelCustomRotatable<>(woodStrippedThorn, MOD_ID + ":block/stripped_thorn_side")
 		);
 
-		ModelHelper.setBlockModel(woodStripedCherry, () -> new BlockModelCustomRotatable<>(woodStripedCherry, MOD_ID + ":block/striped_cherry_side")
+		ModelHelper.setBlockModel(woodStrippedCherry, () -> new BlockModelCustomRotatable<>(woodStrippedCherry, MOD_ID + ":block/stripped_cherry_side")
 		);
 
-		ModelHelper.setBlockModel(woodStripedPine, () -> new BlockModelCustomRotatable<>(woodStripedPine, MOD_ID + ":block/striped_pine_side")
+		ModelHelper.setBlockModel(woodStrippedPine, () -> new BlockModelCustomRotatable<>(woodStrippedPine, MOD_ID + ":block/stripped_pine_side")
 		);
 
-		ModelHelper.setBlockModel(woodStripedOakMossy, () -> new BlockModelCustomRotatable<>(woodStripedOakMossy, MOD_ID + ":block/striped_oak_mossy_side")
+		ModelHelper.setBlockModel(woodStrippedOakMossy, () -> new BlockModelCustomRotatable<>(woodStrippedOakMossy, MOD_ID + ":block/stripped_oak_mossy_side")
 		);
 
-		ModelHelper.setBlockModel(woodStripedEucalyptus, () -> new BlockModelCustomRotatable<>(woodStripedEucalyptus, MOD_ID + ":block/striped_eucalyptus_side")
+		ModelHelper.setBlockModel(woodStrippedEucalyptus, () -> new BlockModelCustomRotatable<>(woodStrippedEucalyptus, MOD_ID + ":block/stripped_eucalyptus_side")
 		);
 
-		ModelHelper.setBlockModel(logStripedOak, () -> new BlockModelAxisAligned<>(logStripedOak)
-			.setTex(0, MOD_ID + ":block/striped_oak_top", Side.TOP, Side.BOTTOM)
-			.setTex(0, MOD_ID + ":block/striped_oak_side", Side.NORTH, Side.SOUTH, Side.EAST, Side.WEST)
+		ModelHelper.setBlockModel(logStrippedOak, () -> new BlockModelAxisAligned<>(logStrippedOak)
+			.setTex(0, MOD_ID + ":block/stripped_oak_top", Side.TOP, Side.BOTTOM)
+			.setTex(0, MOD_ID + ":block/stripped_oak_side", Side.NORTH, Side.SOUTH, Side.EAST, Side.WEST)
 		);
 
-		ModelHelper.setBlockModel(logStripedPalm, () -> new BlockModelAxisAligned<>(logStripedPalm)
-			.setTex(0, MOD_ID + ":block/striped_palm_top", Side.TOP, Side.BOTTOM)
-			.setTex(0, MOD_ID + ":block/striped_palm_side", Side.NORTH, Side.SOUTH, Side.EAST, Side.WEST)
+		ModelHelper.setBlockModel(logStrippedPalm, () -> new BlockModelAxisAligned<>(logStrippedPalm)
+			.setTex(0, MOD_ID + ":block/stripped_palm_top", Side.TOP, Side.BOTTOM)
+			.setTex(0, MOD_ID + ":block/stripped_palm_side", Side.NORTH, Side.SOUTH, Side.EAST, Side.WEST)
 		);
 
-		ModelHelper.setBlockModel(logStripedBirch, () -> new BlockModelAxisAligned<>(logStripedBirch)
-			.setTex(0, MOD_ID + ":block/striped_birch_top", Side.TOP, Side.BOTTOM)
-			.setTex(0, MOD_ID + ":block/striped_birch_side", Side.NORTH, Side.SOUTH, Side.EAST, Side.WEST)
+		ModelHelper.setBlockModel(logStrippedBirch, () -> new BlockModelAxisAligned<>(logStrippedBirch)
+			.setTex(0, MOD_ID + ":block/stripped_birch_top", Side.TOP, Side.BOTTOM)
+			.setTex(0, MOD_ID + ":block/stripped_birch_side", Side.NORTH, Side.SOUTH, Side.EAST, Side.WEST)
 		);
 
-		ModelHelper.setBlockModel(logStripedThorn, () -> new BlockModelAxisAligned<>(logStripedThorn)
-			.setTex(0, MOD_ID + ":block/striped_thorn_top", Side.TOP, Side.BOTTOM)
-			.setTex(0, MOD_ID + ":block/striped_thorn_side", Side.NORTH, Side.SOUTH, Side.EAST, Side.WEST)
+		ModelHelper.setBlockModel(logStrippedThorn, () -> new BlockModelAxisAligned<>(logStrippedThorn)
+			.setTex(0, MOD_ID + ":block/stripped_thorn_top", Side.TOP, Side.BOTTOM)
+			.setTex(0, MOD_ID + ":block/stripped_thorn_side", Side.NORTH, Side.SOUTH, Side.EAST, Side.WEST)
 		);
 
-		ModelHelper.setBlockModel(logStripedCherry, () -> new BlockModelAxisAligned<>(logStripedCherry)
-			.setTex(0, MOD_ID + ":block/striped_cherry_top", Side.TOP, Side.BOTTOM)
-			.setTex(0, MOD_ID + ":block/striped_cherry_side", Side.NORTH, Side.SOUTH, Side.EAST, Side.WEST)
+		ModelHelper.setBlockModel(logStrippedCherry, () -> new BlockModelAxisAligned<>(logStrippedCherry)
+			.setTex(0, MOD_ID + ":block/stripped_cherry_top", Side.TOP, Side.BOTTOM)
+			.setTex(0, MOD_ID + ":block/stripped_cherry_side", Side.NORTH, Side.SOUTH, Side.EAST, Side.WEST)
 		);
 
-		ModelHelper.setBlockModel(logStripedPine, () -> new BlockModelAxisAligned<>(logStripedPine)
-			.setTex(0, MOD_ID + ":block/striped_pine_top", Side.TOP, Side.BOTTOM)
-			.setTex(0, MOD_ID + ":block/striped_pine_side", Side.NORTH, Side.SOUTH, Side.EAST, Side.WEST)
+		ModelHelper.setBlockModel(logStrippedPine, () -> new BlockModelAxisAligned<>(logStrippedPine)
+			.setTex(0, MOD_ID + ":block/stripped_pine_top", Side.TOP, Side.BOTTOM)
+			.setTex(0, MOD_ID + ":block/stripped_pine_side", Side.NORTH, Side.SOUTH, Side.EAST, Side.WEST)
 		);
 
-		ModelHelper.setBlockModel(logStripedOakMossy, () -> new BlockModelAxisAligned<>(logStripedOakMossy)
-			.setTex(0, MOD_ID + ":block/striped_oak_mossy_top", Side.TOP, Side.BOTTOM)
-			.setTex(0, MOD_ID + ":block/striped_oak_mossy_side", Side.NORTH, Side.SOUTH, Side.EAST, Side.WEST)
+		ModelHelper.setBlockModel(logStrippedOakMossy, () -> new BlockModelAxisAligned<>(logStrippedOakMossy)
+			.setTex(0, MOD_ID + ":block/stripped_oak_mossy_top", Side.TOP, Side.BOTTOM)
+			.setTex(0, MOD_ID + ":block/stripped_oak_mossy_side", Side.NORTH, Side.SOUTH, Side.EAST, Side.WEST)
 		);
 
-		ModelHelper.setBlockModel(logStripedEucalyptus, () -> new BlockModelAxisAligned<>(logStripedEucalyptus)
-			.setTex(0, MOD_ID + ":block/striped_eucalyptus_top", Side.TOP, Side.BOTTOM)
-			.setTex(0, MOD_ID + ":block/striped_eucalyptus_side", Side.NORTH, Side.SOUTH, Side.EAST, Side.WEST)
+		ModelHelper.setBlockModel(logStrippedEucalyptus, () -> new BlockModelAxisAligned<>(logStrippedEucalyptus)
+			.setTex(0, MOD_ID + ":block/stripped_eucalyptus_top", Side.TOP, Side.BOTTOM)
+			.setTex(0, MOD_ID + ":block/stripped_eucalyptus_side", Side.NORTH, Side.SOUTH, Side.EAST, Side.WEST)
 		);
 
 
