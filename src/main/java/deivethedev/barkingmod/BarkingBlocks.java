@@ -25,23 +25,23 @@ public class BarkingBlocks {
 	public static Block<?> woodOakMossy;
 	public static Block<?> woodEucalyptus;
 
-	public static Block<?> woodStripedOak;
-	public static Block<?> woodStripedPalm;
-	public static Block<?> woodStripedBirch;
-	public static Block<?> woodStripedThorn;
-	public static Block<?> woodStripedCherry;
-	public static Block<?> woodStripedPine;
-	public static Block<?> woodStripedOakMossy;
-	public static Block<?> woodStripedEucalyptus;
+	public static Block<?> woodStrippedOak;
+	public static Block<?> woodStrippedPalm;
+	public static Block<?> woodStrippedBirch;
+	public static Block<?> woodStrippedThorn;
+	public static Block<?> woodStrippedCherry;
+	public static Block<?> woodStrippedPine;
+	public static Block<?> woodStrippedOakMossy;
+	public static Block<?> woodStrippedEucalyptus;
 
-	public static Block<?> logStripedOak;
-	public static Block<?> logStripedPalm;
-	public static Block<?> logStripedBirch;
-	public static Block<?> logStripedThorn;
-	public static Block<?> logStripedCherry;
-	public static Block<?> logStripedPine;
-	public static Block<?> logStripedOakMossy;
-	public static Block<?> logStripedEucalyptus;
+	public static Block<?> logStrippedOak;
+	public static Block<?> logStrippedPalm;
+	public static Block<?> logStrippedBirch;
+	public static Block<?> logStrippedThorn;
+	public static Block<?> logStrippedCherry;
+	public static Block<?> logStrippedPine;
+	public static Block<?> logStrippedOakMossy;
+	public static Block<?> logStrippedEucalyptus;
 
 	public static void initBlocks() {
 
@@ -61,23 +61,23 @@ public class BarkingBlocks {
 		woodOakMossy = wood_builder.build("wood.oak.mossy", "wood_oak_mossy", nextID(), b -> new BlockLogicWood(b));
 		woodEucalyptus = wood_builder.build("wood.eucalyptus", "wood_eucalyptus", nextID(), b -> new BlockLogicWood(b));
 
-		woodStripedOak = wood_builder.build("wood.striped.oak", "wood_striped_oak", nextID(), b -> new BlockLogicWood(b));
-		woodStripedPalm = wood_builder.build("wood.striped.palm", "wood_striped_palm", nextID(), b -> new BlockLogicWood(b));
-		woodStripedBirch = wood_builder.build("wood.striped.birch", "wood_striped_birch", nextID(), b -> new BlockLogicWood(b));
-		woodStripedThorn = wood_builder.build("wood.striped.thorn", "wood_striped_thorn", nextID(), b -> new BlockLogicWood(b));
-		woodStripedCherry = wood_builder.build("wood.striped.cherry", "wood_striped_cherry", nextID(), b -> new BlockLogicWood(b));
-		woodStripedPine = wood_builder.build("wood.striped.pine", "wood_striped_pine", nextID(), b -> new BlockLogicWood(b));
-		woodStripedOakMossy = wood_builder.build("wood.striped.oak.mossy", "wood_striped_oak_mossy", nextID(), b -> new BlockLogicWood(b));
-		woodStripedEucalyptus = wood_builder.build("wood.striped.eucalyptus", "wood_striped_eucalyptus", nextID(), b -> new BlockLogicWood(b));
+		woodStrippedOak = wood_builder.build("wood.stripped.oak", "wood_stripped_oak", nextID(), b -> new BlockLogicWood(b));
+		woodStrippedPalm = wood_builder.build("wood.stripped.palm", "wood_stripped_palm", nextID(), b -> new BlockLogicWood(b));
+		woodStrippedBirch = wood_builder.build("wood.stripped.birch", "wood_stripped_birch", nextID(), b -> new BlockLogicWood(b));
+		woodStrippedThorn = wood_builder.build("wood.stripped.thorn", "wood_stripped_thorn", nextID(), b -> new BlockLogicWood(b));
+		woodStrippedCherry = wood_builder.build("wood.stripped.cherry", "wood_stripped_cherry", nextID(), b -> new BlockLogicWood(b));
+		woodStrippedPine = wood_builder.build("wood.stripped.pine", "wood_stripped_pine", nextID(), b -> new BlockLogicWood(b));
+		woodStrippedOakMossy = wood_builder.build("wood.stripped.oak.mossy", "wood_stripped_oak_mossy", nextID(), b -> new BlockLogicWood(b));
+		woodStrippedEucalyptus = wood_builder.build("wood.stripped.eucalyptus", "wood_stripped_eucalyptus", nextID(), b -> new BlockLogicWood(b));
 
-		logStripedOak = wood_builder.build("log.striped.oak", "log_striped_oak", nextID(), b -> new BlockLogicLog(b));
-		logStripedPalm = wood_builder.build("log.striped.palm", "log_striped_palm", nextID(), b -> new BlockLogicLog(b));
-		logStripedBirch = wood_builder.build("log.striped.birch", "log_striped_birch", nextID(), b -> new BlockLogicLog(b));
-		logStripedThorn = wood_builder.build("log.striped.thorn", "log_striped_thorn", nextID(), b -> new BlockLogicLog(b));
-		logStripedCherry = wood_builder.build("log.striped.cherry", "log_striped_cherry", nextID(), b -> new BlockLogicLog(b));
-		logStripedPine = wood_builder.build("log.striped.pine", "log_striped_pine", nextID(), b -> new BlockLogicLog(b));
-		logStripedOakMossy = wood_builder.build("log.striped.oak.mossy", "log_striped_oak_mossy", nextID(), b -> new BlockLogicLog(b));
-		logStripedEucalyptus = wood_builder.build("log.striped.eucalyptus", "log_striped_eucalyptus", nextID(), b -> new BlockLogicLog(b));
+		logStrippedOak = wood_builder.build("log.stripped.oak", "log_stripped_oak", nextID(), b -> new BlockLogicLog(b));
+		logStrippedPalm = wood_builder.build("log.stripped.palm", "log_stripped_palm", nextID(), b -> new BlockLogicLog(b));
+		logStrippedBirch = wood_builder.build("log.stripped.birch", "log_stripped_birch", nextID(), b -> new BlockLogicLog(b));
+		logStrippedThorn = wood_builder.build("log.stripped.thorn", "log_stripped_thorn", nextID(), b -> new BlockLogicLog(b));
+		logStrippedCherry = wood_builder.build("log.stripped.cherry", "log_stripped_cherry", nextID(), b -> new BlockLogicLog(b));
+		logStrippedPine = wood_builder.build("log.stripped.pine", "log_stripped_pine", nextID(), b -> new BlockLogicLog(b));
+		logStrippedOakMossy = wood_builder.build("log.stripped.oak.mossy", "log_stripped_oak_mossy", nextID(), b -> new BlockLogicLog(b));
+		logStrippedEucalyptus = wood_builder.build("log.stripped.eucalyptus", "log_stripped_eucalyptus", nextID(), b -> new BlockLogicLog(b));
 
 		LOGGER.info("Blocks initialized.");
 	}

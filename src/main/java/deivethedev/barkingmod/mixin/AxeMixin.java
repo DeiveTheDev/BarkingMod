@@ -31,7 +31,7 @@ public abstract class AxeMixin extends ItemTool {
 		String name = Objects.requireNonNull(block).namespaceId().toString();
 
 		if (name.contains("wood") || name.contains("log")) {
-			if (!(name.contains("striped"))) {
+			if (!(name.contains("stripped"))) {
 				int bx = blockX;
 				int by = blockY;
 				int bz = blockZ;
@@ -74,7 +74,7 @@ public abstract class AxeMixin extends ItemTool {
 
 					Block<?> striped;
 
-					striped = Blocks.blockMap.get(NamespaceID.getPermanent(mod, "block/" + type + "_striped_" + species));
+					striped = Blocks.blockMap.get(NamespaceID.getPermanent(mod, "block/" + type + "_stripped_" + species));
 
 					int meta = world.getBlockMetadata(bx, by, bz);
 

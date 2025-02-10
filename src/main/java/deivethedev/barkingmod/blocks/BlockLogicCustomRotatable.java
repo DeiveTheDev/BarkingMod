@@ -46,7 +46,7 @@ public class BlockLogicCustomRotatable extends BlockLogicAxisAligned {
 				world.setBlockMetadataWithNotify(x, y, z, 0);
 			} else {
 
-				LOGGER.error("Invalid horizontal placement direction for lapis pillar");
+				LOGGER.error("Invalid horizontal placement direction");
 				// default to vertical north, i guess?
 				world.setBlockMetadataWithNotify(x, y, z, 3);
 			}
