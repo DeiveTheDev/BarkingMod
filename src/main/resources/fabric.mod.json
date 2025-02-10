@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "barkingmod",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Barking Mod",
   "description": "This mod aims to help new BTA modders.",
   "authors": [
-    "Turnip Labs"
+    "Deive The Dev"
   ],
   "contact": {
     "homepage": "",
@@ -19,20 +19,23 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"deivethedev.barkingmod.BarkingMod"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"deivethedev.barkingmod.BarkingMod"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"deivethedev.barkingmod.BarkingMod"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"deivethedev.barkingmod.BarkingRecipes"
+		],
+		"initModels": [
+			"deivethedev.barkingmod.BarkingModels"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+    "barkingmod.mixins.json"
   ],
 
   "depends": {
