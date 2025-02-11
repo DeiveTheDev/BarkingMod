@@ -10,6 +10,7 @@ public class DogFlute extends Item {
 
 	public DogFlute(String translationKey, String namespaceId, int id) {
 		super(translationKey, namespaceId, id);
+		maxStackSize = 1;
 	}
 
 	@Override
