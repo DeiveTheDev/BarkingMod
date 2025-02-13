@@ -67,13 +67,106 @@ public class BarkingRecipes implements RecipeEntrypoint {
 			.addInput(Blocks.LOG_OAK)
 			.addInput(Blocks.LOG_OAK)
 			.addInput(Blocks.LOG_OAK)
-			.create("wood_oak", new ItemStack(woodOak, 2));
+			.create("log_oak_to_wood_oak", new ItemStack(woodOak, 2));
+
+		RecipeBuilder.Shapeless(MOD_ID)
+			.addInput(Blocks.LOG_PALM)
+			.addInput(Blocks.LOG_PALM)
+			.addInput(Blocks.LOG_PALM)
+			.create("log_palm_to_wood_palm", new ItemStack(woodPalm, 2));
+
+		RecipeBuilder.Shapeless(MOD_ID)
+			.addInput(Blocks.LOG_PINE)
+			.addInput(Blocks.LOG_PINE)
+			.addInput(Blocks.LOG_PINE)
+			.create("log_pine_to_wood_pine", new ItemStack(woodPine, 2));
+
+		RecipeBuilder.Shapeless(MOD_ID)
+			.addInput(Blocks.LOG_BIRCH)
+			.addInput(Blocks.LOG_BIRCH)
+			.addInput(Blocks.LOG_BIRCH)
+			.create("log_birch_to_wood_birch", new ItemStack(woodBirch, 2));
+
+		RecipeBuilder.Shapeless(MOD_ID)
+			.addInput(Blocks.LOG_THORN)
+			.addInput(Blocks.LOG_THORN)
+			.addInput(Blocks.LOG_THORN)
+			.create("log_thorn_to_wood_thorn", new ItemStack(woodThorn, 2));
+
+		RecipeBuilder.Shapeless(MOD_ID)
+			.addInput(Blocks.LOG_CHERRY)
+			.addInput(Blocks.LOG_CHERRY)
+			.addInput(Blocks.LOG_CHERRY)
+			.create("log_cherry_to_wood_cherry", new ItemStack(woodCherry, 2));
+
+		RecipeBuilder.Shapeless(MOD_ID)
+			.addInput(Blocks.LOG_OAK_MOSSY)
+			.addInput(Blocks.LOG_OAK_MOSSY)
+			.addInput(Blocks.LOG_OAK_MOSSY)
+			.create("log_oak_mossy_to_wood_oak_mossy", new ItemStack(woodOakMossy, 2));
+
+		RecipeBuilder.Shapeless(MOD_ID)
+			.addInput(Blocks.LOG_EUCALYPTUS)
+			.addInput(Blocks.LOG_EUCALYPTUS)
+			.addInput(Blocks.LOG_EUCALYPTUS)
+			.create("log_eucalyptus_to_wood_eucalyptus", new ItemStack(woodEucalyptus, 2));
+
+
+
+
 
 		RecipeBuilder.Shapeless(MOD_ID)
 			.addInput(barkOak)
 			.addInput(Blocks.LOG_OAK)
 			.addInput(barkOak)
-			.create("wood_oak", new ItemStack(woodOak, 1));
+			.create("bark_oak_to_wood_oak", new ItemStack(woodOak, 1));
+
+		RecipeBuilder.Shapeless(MOD_ID)
+			.addInput(barkPalm)
+			.addInput(Blocks.LOG_PALM)
+			.addInput(barkPalm)
+			.create("bark_palm_to_wood_palm", new ItemStack(woodPalm, 1));
+
+		RecipeBuilder.Shapeless(MOD_ID)
+			.addInput(barkPine)
+			.addInput(Blocks.LOG_PINE)
+			.addInput(barkPine)
+			.create("bark_pine_to_wood_pine", new ItemStack(woodPine, 1));
+
+		RecipeBuilder.Shapeless(MOD_ID)
+			.addInput(barkBirch)
+			.addInput(Blocks.LOG_BIRCH)
+			.addInput(barkBirch)
+			.create("bark_birch_to_wood_birch", new ItemStack(woodBirch, 1));
+
+		RecipeBuilder.Shapeless(MOD_ID)
+			.addInput(barkThorn)
+			.addInput(Blocks.LOG_THORN)
+			.addInput(barkThorn)
+			.create("bark_thorn_to_wood_thorn", new ItemStack(woodThorn, 1));
+
+		RecipeBuilder.Shapeless(MOD_ID)
+			.addInput(barkCherry)
+			.addInput(Blocks.LOG_CHERRY)
+			.addInput(barkCherry)
+			.create("bark_cherry_to_wood_cherry", new ItemStack(woodCherry, 1));
+
+		RecipeBuilder.Shapeless(MOD_ID)
+			.addInput(barkOakMossy)
+			.addInput(Blocks.LOG_OAK_MOSSY)
+			.addInput(barkOakMossy)
+			.create("bark_oak_mossy_to_wood_oak_mossy", new ItemStack(woodOakMossy, 1));
+
+		RecipeBuilder.Shapeless(MOD_ID)
+			.addInput(barkEucalyptus)
+			.addInput(Blocks.LOG_EUCALYPTUS)
+			.addInput(barkEucalyptus)
+			.create("bark_eucalyptus_to_wood_eucalyptus", new ItemStack(woodEucalyptus, 1));
+
+
+
+
+
 
 		RecipeBuilder.Shapeless(MOD_ID)
 			.addInput(woodOak)

@@ -3,6 +3,7 @@ package deivethedev.barkingmod;
 import deivethedev.barkingmod.items.DogFlute;
 import net.minecraft.core.item.Item;
 import net.minecraft.core.item.ItemArmor;
+import net.minecraft.core.item.ItemFood;
 import net.minecraft.core.item.material.ArmorMaterial;
 import turniplabs.halplibe.helper.ArmorHelper;
 import turniplabs.halplibe.helper.ItemBuilder;
@@ -42,8 +43,6 @@ public class BarkingItems {
 
 		dogFlute = new ItemBuilder(MOD_ID)
 			.build(new DogFlute("dog_flute", MOD_ID + ":item/dog_flute", nextID()));
-
-
 
 		barkOak = new ItemBuilder(MOD_ID)
 			.build(new Item("bark.oak", MOD_ID + ":item/bark_oak", nextID()));

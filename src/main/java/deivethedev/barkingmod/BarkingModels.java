@@ -9,6 +9,7 @@ import net.minecraft.client.render.item.model.ItemModelDispatcher;
 import net.minecraft.client.render.item.model.ItemModelStandard;
 
 import net.minecraft.client.render.texture.stitcher.TextureRegistry;
+import net.minecraft.core.block.BlockLogicMotionSensor;
 import net.minecraft.core.util.helper.Side;
 import turniplabs.halplibe.helper.ModelHelper;
 import turniplabs.halplibe.util.ModelEntrypoint;
