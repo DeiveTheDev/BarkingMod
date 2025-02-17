@@ -99,6 +99,11 @@ public abstract class AxeMixin extends ItemTool {
 		blockZ += direction.getOffsetZ();
 
 		Block<?> block = world.getBlock(blockX, blockY, blockZ);
+
+		if (block == null) {
+			return;
+		}
+
 		String name = Objects.requireNonNull(block).namespaceId().toString();
 
 		System.out.println("1");
